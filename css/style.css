@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+.align-center{
+    align-items: center;
+}
+.heading{
+    font-weight: 700;
+font-size: 36px;
+line-height: 46px;
+text-align: center;
+color:var(--secondaryColor);
+padding: 30px 0;
+   }
+
+:root{
+    --primaryFont:'Josefin Sans', sans-serif;
+    --secondaryFont:'Roboto', sans-serif;
+    --fourthColor:#444444;
+    --fifthColor:#BDBDBD;
+    --sixthColor:#151A32;
+    --bannerHeight: 460px;
+}
+.button{
+padding: 10px 15px;
+background-color:rgb(245, 26, 26) ;
+color: white;
+font-size: 14px;
+font-weight: 600;
+margin: 0 10px;
+
+}
+body{
+    font-family: var(--primaryFont);
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+}
+nav{
+   width: 100%;
+    position: absolute;
+    padding: 20px 0;
+}
+nav ul{
+    display: block;
+    text-align: center;
+   
+}
+nav ul a{
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--secondaryFont);
+    padding: 0 10px;
+}
+nav .icons ul li span{
+    margin: 0 10px;
+}
+
+
+#banner{
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     height:var(--bannerHeight) ;  
+}
+#banner .row{
+    height: var(--bannerHeight);
+}
+#banner h3{
+    font-size: 24px;
+    font-weight: 300;
+    font-family: var(--secondaryFont);
+}
+#banner h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: var(--secondaryFont);
+    text-transform: uppercase;
+}
+#banner .banner_cnt > *{
+margin: 10px 0;
+}
+#banner .banner_cnt .button:nth-last-child(1){
+  background-color: transparent;
+  border: 1px solid white;
+}
+#history{
+    padding: 50px 0;
+}
+#history .history_Cnt h1{
+    color: #464646;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: var(--secondaryFont);
+}
+#history .history_info  p{
+    color: #b7b7b7;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--secondaryFont);
+}
+#work{
+    padding: 50px 0;
+}
+#work .work_cnt h3{
+    color: #464646;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: var(--secondaryFont);
+    text-align: center;
+}
+#work .work_cnt p{
+    color: #b7b7b7;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: var(--secondaryFont);
+    text-align: center;
+    margin-top: 20px;
+}
+#work .work_card{
+    text-align: center;
+    margin-top: 12px;
+}
+#work .work_card .work_cards img{
+    text-align: left;
+}
+#work .work_card .work_cards h6{
+    font-size: 18px;
+    font-family: var(--secondaryFont);
+    font-weight: 700;
+    color: #464646;
+    text-align: left;
+  margin-top: 12px;
+}
+#work .work_card .work_cards p{
+    font-size: 16px;
+    font-family: var(--secondaryFont);
+    font-weight: 300;
+    color: #b7b7b7;
+    text-align: left;
+  margin-top: 12px;
+}
+#work .work_card .work_img {
+
+        display: block;
+        width: 100%;
+        text-align: left;
+
+}
+#mercury{
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+#mercury .mercury_cnt{
+ margin-top: 40px;
+}
+#mercury .mercury_cnt h4{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--secondaryFont);
+    color: #464646;
+}
+#mercury .mercury_cnt p{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: var(--secondaryFont);
+    color: #b7b7b7;
+    padding: 30px 0;
+}
+#choose{
+    padding: 50px 0;
+}
+ .heading{
+    font-size: 48px;
+    font-family: var(--secondaryFont);
+    font-weight: 700;
+    color: #464646;
+    text-transform: uppercase;
+    text-align: left;
+}
+#choose .choose_cards .choose_cart h4{
+    font-size: 18px;
+    font-family: var(--secondaryFont);
+    font-weight: 700;
+    color: #464646;
+    margin: 10px 0;
+}
+#choose .choose_cards .choose_cart{
+    margin: 10px 0;
+}
+#choose .choose_cards .choose_cart p{
+    font-size: 16px;
+    font-family: var(--secondaryFont);
+    font-weight: 300;
+    color: #b7b7b7;
+    
+}
+#jewelry{
+    padding: 50px 0;
+}
+#jewelry .jewellery_cnt .jewellery_cnt_img img,
+#jewelry .jewellery .jewelry_img img{
+    display: block;
+    width: 100%;
+
+}
+#jewelry .jewellery .jewelry_img
+{
+    padding: 0;
+}
+#jewelry .jewellery_cnt .jewellery_cnt_img
+{
+    padding: 0;
+}
+#jewelry .jewellery_cnt .jewellery_info .heading{
+ margin: 10px 30px;
+}
+#jewelry .jewelery_details p{
+    font-size: 16px;
+    font-family: var(--secondaryFont);
+    font-weight: 300;
+    color: #b7b7b7;
+}
+#jewelry .jewelery_details{
+    padding: 30px 0;
+}
+#Comments{
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+#Comments .heading{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--secondaryFont);
+    color: #464646;
+    text-align: center;
+}
+#Comments p{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: var(--secondaryFont);
+    color: #b7b7b7;
+    text-align: center;
+}
+#Comments .commet_card .quote span{
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#Comments .custom{
+ margin: 50px 0;
+}
+#Comments .comment_chart{
+    margin-bottom: 30px ;
+}
+#Comments .comment_chart h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #464646;
+    font-family: var(--secondaryFont);
+    margin-bottom: 10px ;
+}
+#Comments .comment_chart p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #b7b7b7;
+    font-family: var(--secondaryFont);
+    text-align: left;
+}
+footer{
+    background-color: #353434;
+    padding: 50px 0;
+}
+footer .footer_cnt h5{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    font-family: var(--secondaryFont);
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+footer .footer_cnt ul li a{
+    font-weight: 300;
+    font-size: 16px;
+    color: #545454;
+    font-family: var(--secondaryFont);
+ 
+}
+footer .footer_cont{
+padding: 60px 0;
+}
+footer .footer_cont ul li a{
+    font-weight: 300;
+    font-size: 16px;
+    color: #545454;
+    font-family: var(--secondaryFont);
+}
+footer .footer_icons ul li{
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 16px;
+    color: #545454;
+}
+footer .footer_icons p{
+    text-align: right;
+    color: #545454;
+    margin-right:280px ;
+}
